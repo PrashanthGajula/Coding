@@ -7,8 +7,7 @@
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+*.class
 
 # Package Files #
 *.jar
@@ -19,5 +18,45 @@
 *.tar.gz
 *.rar
 
+# Eclipse Core
+.project
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Subversion
+.svn/
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.settings
+target
+.idea
+*.iml
+*.ipr
+*.iws
+.fbprefs
+*.orig
+temp.xml
+derby.log
+.clover
+*.DS_Store
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+*.dll
+
+
