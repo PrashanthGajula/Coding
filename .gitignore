@@ -7,8 +7,6 @@
 # BlueJ files
 *.ctxt
 
-*.class
-
 # Package Files #
 *.jar
 *.war
