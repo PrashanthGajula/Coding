@@ -12,7 +12,7 @@ public class ParkingDesign_CarRoof {
 		
 		Arrays.sort(cars);
 		
-		for(int i=0;i<cars.length-k;i++) {
+		for(int i=0;i<=cars.length-k;i++) {
 			min = Math.min(min, cars[i+k-1]-cars[i]);
 		}
 		min = min+1;

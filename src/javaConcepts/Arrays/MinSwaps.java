@@ -13,16 +13,14 @@ public class MinSwaps {
 	public static void main(String[] args) {
 		int[] nums = {7,1,3,2,4,5,6};
 		int count=0;
-		
 		for(int i=0;i<nums.length;i++) {
-			if(nums[i]==i+1)continue;
+			if(nums[i] == i+1) continue;
 			int temp = nums[i];
 			nums[i]=nums[temp-1];
-			nums[temp-1]=temp;
+			nums[temp-1] = temp;
 			i--;
 			count++;
 		}
-		
 		System.out.println(count);
 	}
 }
