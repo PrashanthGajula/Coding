@@ -1,5 +1,5 @@
 package javaConcepts.Arrays;
-//To find a factorial.
+
 public class Factorial {
 
 	public static void main(String[] args) {

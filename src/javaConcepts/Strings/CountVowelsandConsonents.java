@@ -1,6 +1,9 @@
 package javaConcepts.Strings;
 
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class CountVowelsandConsonents {
@@ -26,6 +29,7 @@ public class CountVowelsandConsonents {
 		}
 System.out.println("vowels = "+vowels);
 System.out.println("consonents = "+consonents);
+
 	}
 
 }
